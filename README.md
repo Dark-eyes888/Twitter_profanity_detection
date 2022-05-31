@@ -6,5 +6,5 @@ A simple model with embeddings layer , lstm layers, gru layers, and dense layers
 
 There were some preprocessing jobs that were not used in the above notebook that should be considered: 
 1. Emojis in uint8 format were present, but they were removed from the data. They can be converted into text and used.
-2. The dataset's labels are unbalanced. This is not appropriate for a model because it leads to biassed learning.
+2. The dataset's labels are unbalanced. This is not appropriate for a model because it leads to biassed learning. We can use upscaling to balance the dataset.
 3. To improve categorization, we can utilise transfer learning or huggingface transformers.
